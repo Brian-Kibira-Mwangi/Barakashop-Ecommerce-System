@@ -28,7 +28,7 @@ Frontend (Next.js + React)
    cd barakashop
    npm install
 Backend (Strapi CMS)
-   cd barakashop
+   cd barakashop-admin
    npm install
    
 3. Configure the Database
@@ -53,14 +53,14 @@ Ensure you have PostgreSQL installed.
 
 4. Run the Backend (Strapi)
    
-   cd barakashop-backend
+   cd barakashop-admin
    npm run develop
    
 This will launch the CMS and generate the necessary tables in your PostgreSQL database.
 
 5. Run the Frontend
    
-    cd barakashop-frontend
+    cd barakashop
     npm run dev
 The app will be available at: http://localhost:3000
 

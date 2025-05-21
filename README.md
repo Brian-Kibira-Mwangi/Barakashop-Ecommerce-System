@@ -4,10 +4,15 @@ Barakashop is a full-stack E-commerce platform built to support online mobile ph
 Key Features
 
 •	Responsive frontend built with React.js and Tailwind CSS
+
 •	Backend CMS using Strapi connected to PostgreSQL
+
 •	RESTful API for product, user, and order management
+
 •	Customer checkout flow with order confirmation
+
 •	PDF receipt generation
+
 •	Admin interface for managing inventory and orders
 
 Setup Instructions
@@ -31,12 +36,19 @@ Backend (Strapi CMS)
 Ensure you have PostgreSQL installed.
 
 •	Create a database named barakashop_db
+
 •	Update your backend .env file with your DB credentials:
+
 •	DATABASE_CLIENT=postgres
+
 •	DATABASE_NAME=barakashop_db
+
 •	DATABASE_HOST=localhost
+
 •	DATABASE_PORT=5432
+
 •	DATABASE_USERNAME=your_db_user
+
 •	DATABASE_PASSWORD=your_db_password
 
 6. Run the Backend (Strapi)

@@ -23,7 +23,7 @@ Make sure to clone both the frontend and backend repositories:
 git clone https://github.com/Brian-Kibira-Mwangi/barakashop
 git clone https://github.com/Brian-Kibira-Mwangi/barakashop-admin
 
-3. Install Dependencies
+2. Install Dependencies
    
 Frontend (Next.js + React)
    cd barakashop
@@ -31,7 +31,7 @@ Frontend (Next.js + React)
 Backend (Strapi CMS)
    cd barakashop
    npm install
-5. Configure the Database
+3. Configure the Database
 
 Ensure you have PostgreSQL installed.
 
@@ -51,14 +51,14 @@ Ensure you have PostgreSQL installed.
 
 •	DATABASE_PASSWORD=your_db_password
 
-6. Run the Backend (Strapi)
+4. Run the Backend (Strapi)
    
    cd barakashop-backend
    npm run develop
    
 This will launch the CMS and generate the necessary tables in your PostgreSQL database.
 
-8. Run the Frontend
+5. Run the Frontend
     cd barakashop-frontend
     npm run dev
 The app will be available at: http://localhost:3000

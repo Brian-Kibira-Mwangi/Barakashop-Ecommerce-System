@@ -1,4 +1,3 @@
-
 Barakashop is a full-stack E-commerce platform built to support online mobile phone retail operations. The system provides seamless user experiences for browsing products, managing carts, placing orders, and generating PDF receipts for completed transactions.
 
 Key Features
@@ -31,6 +30,7 @@ Frontend (Next.js + React)
 Backend (Strapi CMS)
    cd barakashop
    npm install
+   
 3. Configure the Database
 
 Ensure you have PostgreSQL installed.
@@ -59,6 +59,7 @@ Ensure you have PostgreSQL installed.
 This will launch the CMS and generate the necessary tables in your PostgreSQL database.
 
 5. Run the Frontend
+   
     cd barakashop-frontend
     npm run dev
 The app will be available at: http://localhost:3000
